@@ -8,8 +8,10 @@ from python.calc import Calc
 
 
 class TestCalc(unittest.TestCase):
-    def test_add(self):
+    def setUp(self) -> None:
         self.calc = Calc()
+
+    def test_add(self):
         res = self.calc.jaifa(1, 2)
         self.assertEqual(3, res)
         # print("-----------------")
