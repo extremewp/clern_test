@@ -25,7 +25,7 @@ class TestHome:
 
     def teardown(self):
         # 回收掉实例webdriver
-        self.fire.quit()
+        # self.fire.quit()
 
         pass
 

@@ -7,3 +7,14 @@ https://npm.taobao.org/mirrors/chromedriver/
 
 selenium 官方文档
 https://selenium-python.readthedocs.io/
+
+
+页面定位
+ //  ：从根节点选取此节点下所有节点
+ @   ： 选取指定属性
+ /   ： 从节点下选取节点
+ .   ： 选取当前节点
+ ..  ： 选取当前节点的父节点。
+ click  点击
+ send_keys("") 填写信息
+ maximize_window()  动态等待时间
