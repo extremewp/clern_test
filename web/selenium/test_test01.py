@@ -16,18 +16,20 @@ class TestTest01():
     self.vars = {}
   
   def teardown_method(self, method):
-    self.driver.quit()
+    # self.driver.quit()
+   pass
   
   def test_test01(self):
     self.driver.get("https://www.baidu.com/")
-    sleep(1)
-    self.driver.set_window_size(550, 689)
-    sleep(1)
-    self.driver.find_element(By.ID, "kw").click()
-    sleep(1)
-    self.driver.find_element(By.ID, "kw").send_keys("lalal")
-    sleep(1)
-    self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
-    sleep(1)
-    self.driver.find_element(By.LINK_TEXT, "LALAL.AI: 100% AI-Powered Vocal and Instrumental Track...").click()
+    self.driver.find_element().send_keys()
+    # sleep(1)
+    # self.driver.set_window_size(550, 689)
+    # sleep(1)
+    # self.driver.find_element(By.ID, "kw").click()
+    # sleep(1)
+    # self.driver.find_element(By.ID, "kw").send_keys("lalal")
+    # sleep(1)
+    # self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
+    # sleep(1)
+    # self.driver.find_element(By.LINK_TEXT, "LALAL.AI: 100% AI-Powered Vocal and Instrumental Track...").click()
   

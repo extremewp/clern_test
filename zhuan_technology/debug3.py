@@ -38,6 +38,7 @@ class CouponPayTestCase(unittest.TestCase):  # 优惠券结算，取消订单后
                             {"content":"","titleName":"鉴定通过","groupName":"0","groupId":"0"}],"refuseReason":"",
                             "quotePrice":4400,"_":1631777773145}
         res = requests.post(url=self.login_url, data=data, headers=self.headers).json()
+
         print(res)
 
 

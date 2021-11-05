@@ -18,3 +18,10 @@ https://selenium-python.readthedocs.io/
  click  点击
  send_keys("") 填写信息
  maximize_window()  动态等待时间
+
+
+ActionChains 拖动移动导入包
+ click_and_hold() 就是某一个元素按住拖动不放手
+ context_click()就是鼠标右键
+ double_click()双击
+ drag_and_drop()拖动移动到另一个地方

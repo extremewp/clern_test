@@ -1,0 +1,12 @@
+random.randint()随机生成一个int的整数
+ # 可以实现and 和or 断言
+        assert_that(res.json()["code"], equal_to(101001))
+ # 使用断言简单可以实现递归检索
+        assert jsonpath(res.json(), '$..code')[0] == 101001
+ 提取异常
+   try:
+            assert 0 == self.test_add(word, source, device)["code"]
+        except SyntaxError as e:
+        正则提取：后面的值到'结束
+            re.findall(":(.*)'$", e.__str__())[0]
+        return res.json()

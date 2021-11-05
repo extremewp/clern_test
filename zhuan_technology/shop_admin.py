@@ -4,6 +4,8 @@ import requests
 import unittest
 import datetime
 
+import yaml
+
 token = 'e4824e6cd225802506c7c01011d40bb7dece068b'  # 运行代码之前先登录获取
 
 
@@ -364,7 +366,8 @@ class BuyAGiftAddTestCase(unittest.TestCase):  # 创建买赠活动(商品item_i
         self.assertEqual(expected["code"], res["code"], "正常结束买赠活动的时候出现bug")
         self.assertEqual(expected["msg"], res["msg"], "正常结束买赠活动的时候出现bug")
 
-
+with open("../datas/step_add.yml") as f:
+     random.choice(yaml.safe_load(f))
 class FullReductionTestCase(unittest.TestCase):  # 满减活动相关接口
     goods = ""
     goods2 = ""  # 买赠活动商品
