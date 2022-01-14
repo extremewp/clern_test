@@ -1,0 +1,13 @@
+test_denglu:
+  data:
+    device-number: device_number
+    mobile: '19520909999'
+    password: '1231'
+    source: h5
+    type: sms
+  headers:
+    Accept: application/json
+    device-number: device_number
+    source: h5
+  method: post
+  url: http://newo2otest.yesmywine.com/user/login

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>歌德酒市后台系统</title>
+<link rel="stylesheet" type="text/css"
+	href="/views/css/login.css" />
+</head>
+
+<body>
+	
+	<form id="login" action="/login/loginvalidate" method="post">
+
+		<h1>Log In</h1>
+		<fieldset id="inputs">
+			<input id="username" name="username" placeholder="Username" type="text" value=""/>
+			<input id="password" name="password" placeholder="Password" type="password" value=""/>
+			<input id="scode" name="scode" placeholder="Security Code" type="text" value=""/>
+			<img id="scodeimg" onclick="javascript:flushscode();"
+				src="/scode/createpic" />
+		</fieldset>
+
+		<fieldset id="inputs">
+			<span>用户名不能为空！</span>
+		</fieldset>
+
+		<fieldset id="actions">
+
+			<input type="submit" id="submit" value="Log in" onclick="return check();"> <!-- <a href="">Forgot your password?</a><a href="">Register</a> -->
+		</fieldset>
+
+		<!-- <a href="http://www.sina.net" id="back">Back to article...</a> -->
+
+
+	</form>
+	
+
+
+
+	<!-- BSA AdPacks code -->
+	<input type="hidden" id="domain"
+		value="" />
+	<script
+		src="/views/js/libs/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="/views/js/libs/md5.js"></script>
+	<script type="text/javascript"
+		src="/views/js/login.js"></script>
+	
+	<script type="text/javascript">
+		function check(){
+			var passWord = $('#password').val();
+			passWord = md5(passWord);
+			$('#password').val(passWord);
+			return true;
+		}
+
+	</script>
+
+	<div style="clear: both"></div>
+
+			
+	
+</body>
+</html>
+
+200

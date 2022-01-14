@@ -1,0 +1,53 @@
+{
+  "uid" : "eb61ccc84e4f8bff",
+  "name" : "test_detail_None",
+  "fullName" : "test_yemai.TestYeMai#test_detail_None",
+  "historyId" : "945f52401401fc1e9097c3312f5be65b",
+  "time" : {
+    "start" : 1636530977028,
+    "stop" : 1636530977682,
+    "duration" : 654
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_yemai"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYeMai"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "52540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yemai"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb61ccc84e4f8bff.json",
+  "parameterValues" : [ ]
+}

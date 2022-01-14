@@ -1,3 +1,8 @@
+使用 pytest + request + allure 实现接口自动化 ：
+pytest  导包
+request 自带 导包
+allure  在file-settings 下载
+
 random.randint()随机生成一个int的整数
  # 可以实现and 和or 断言
         assert_that(res.json()["code"], equal_to(101001))

@@ -22,6 +22,7 @@ class TestTest01():
   def test_test01(self):
     self.driver.get("https://www.baidu.com/")
     self.driver.find_element().send_keys()
+    self.driver.implicitly_wait(1)
     # sleep(1)
     # self.driver.set_window_size(550, 689)
     # sleep(1)

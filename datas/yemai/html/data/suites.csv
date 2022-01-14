@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 10 15:56:15 CST 2021","Wed Nov 10 15:56:16 CST 2021","789","","test_yemai","TestYeMai","","","test_detail_pass",""
+"passed","Wed Nov 10 15:56:16 CST 2021","Wed Nov 10 15:56:17 CST 2021","650","","test_yemai","TestYeMai","","","test_detail_erro",""
+"passed","Wed Nov 10 15:56:14 CST 2021","Wed Nov 10 15:56:15 CST 2021","377","","test_yemai","TestYeMai","","","test_list",""
+"passed","Wed Nov 10 15:56:17 CST 2021","Wed Nov 10 15:56:17 CST 2021","654","","test_yemai","TestYeMai","","","test_detail_None",""
+"passed","Wed Nov 10 15:56:15 CST 2021","Wed Nov 10 15:56:15 CST 2021","378","","test_yemai","TestYeMai","","","test_add",""
+"passed","Wed Nov 10 15:56:14 CST 2021","Wed Nov 10 15:56:14 CST 2021","373","","test_yemai","TestYeMai","","","test_login",""

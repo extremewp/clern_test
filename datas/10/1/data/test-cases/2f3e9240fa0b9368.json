@@ -1,0 +1,69 @@
+{
+  "uid" : "2f3e9240fa0b9368",
+  "name" : "test_hamcrest",
+  "fullName" : "test_requests.TestDome#test_hamcrest",
+  "historyId" : "a6b4e0e0d4f65fa3d411efd72c9691ed",
+  "time" : {
+    "start" : 1636104084139,
+    "stop" : 1636104084476,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b7d181b19dce95b",
+      "name" : "stdout",
+      "source" : "7b7d181b19dce95b.txt",
+      "type" : "text/plain",
+      "size" : 5906
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_requests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDome"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "22908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_requests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f3e9240fa0b9368.json",
+  "parameterValues" : [ ]
+}

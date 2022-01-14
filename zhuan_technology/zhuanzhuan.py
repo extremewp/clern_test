@@ -47,6 +47,7 @@ class LoginTestCase(unittest.TestCase):
         # 预期返回结果
         response = requests.post(url=self.login_url, data=data, headers=self.login_headers)
         res = response.json()
+        print(response.json())
         # 以JSON方式获取实际的返回结果
         self.assertEqual(excepted["code"], res["code"], "手机号为空时候出bug")
         self.assertEqual(excepted["msg"], res["msg"], "手机号为空时候出bug")
@@ -81,6 +82,7 @@ class LoginTestCase(unittest.TestCase):
         # 预期返回结果
         response = requests.post(url=self.login_url, data=data, headers=self.login_headers)
         res = response.json()
+        print(response.json())
         # 以JSON方式获取实际的返回结果
         self.assertEqual(excepted["code"], res["code"], "密码为空时候出bug")
         self.assertEqual(excepted["msg"], res["msg"], "密码为空时候出bug")
@@ -181,6 +183,7 @@ class GoodsDetailTestCase(unittest.TestCase):
         expected = {"code": 0, "item_id": params["item_id"]}  # 预期输出结果
         response = requests.get(url=self.url, params=params, headers=self.headers)  # 向后台发送请求
         res = response.json()  # 把响应结果取出来
+        print(res)
         self.assertEqual(expected["code"], res["code"], "输入正确的商品id进入商品详情页出现bug")  # 断言
         self.assertEqual(expected["item_id"], res["data"]["item_id"], "输入正确商品id进入商品详情页出现bug")  # 断言
 

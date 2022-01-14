@@ -1,0 +1,69 @@
+{
+  "uid" : "35ab94964affd540",
+  "name" : "test_xuexi",
+  "fullName" : "test_requests.TestDome#test_xuexi",
+  "historyId" : "1642713ff5d267990e4cdfd3f3c8223f",
+  "time" : {
+    "start" : 1636104083792,
+    "stop" : 1636104084134,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de81e21e0fe2970c",
+      "name" : "stdout",
+      "source" : "de81e21e0fe2970c.txt",
+      "type" : "text/plain",
+      "size" : 5925
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_requests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDome"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "22908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_requests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35ab94964affd540.json",
+  "parameterValues" : [ ]
+}

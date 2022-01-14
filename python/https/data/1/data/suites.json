@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "gdjs_testing",
+    "children" : [ {
+      "name" : "test_assert",
+      "children" : [ {
+        "name" : "Test_gdjs",
+        "children" : [ {
+          "name" : "test_denglu",
+          "uid" : "88b70ab917285d7a",
+          "parentUid" : "30cb7757e6db4a5e9ba45791c8509a0a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640674567905,
+            "stop" : 1640674568710,
+            "duration" : 805
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "30cb7757e6db4a5e9ba45791c8509a0a"
+      }, {
+        "name" : "Test_gdjs_assert",
+        "children" : [ {
+          "name" : "test_denglu",
+          "uid" : "39a61a36ee96e83e",
+          "parentUid" : "039c19b9c538f9798865cd8a2df582b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640674568727,
+            "stop" : 1640674569554,
+            "duration" : 827
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_denglu_pass",
+          "uid" : "9e6d4b13b0a07ab7",
+          "parentUid" : "039c19b9c538f9798865cd8a2df582b8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640674569570,
+            "stop" : 1640674570303,
+            "duration" : 733
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "039c19b9c538f9798865cd8a2df582b8"
+      } ],
+      "uid" : "6f3eb59fa584b051d3a5f212d216abfe"
+    } ],
+    "uid" : "768099e358e2b6b2f3fdac2e8364c0fb"
+  } ]
+}

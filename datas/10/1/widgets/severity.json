@@ -1,0 +1,81 @@
+[ {
+  "uid" : "25738a854196ef94",
+  "name" : "test_test1[scode]",
+  "time" : {
+    "start" : 1636104084573,
+    "stop" : 1636104084594,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bfc57d5d6dffe6d",
+  "name" : "test_jianding",
+  "time" : {
+    "start" : 1636104083234,
+    "stop" : 1636104083774,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccb023783cac01df",
+  "name" : "test_test1",
+  "time" : {
+    "start" : 1636104083205,
+    "stop" : 1636104083231,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f3e9240fa0b9368",
+  "name" : "test_hamcrest",
+  "time" : {
+    "start" : 1636104084139,
+    "stop" : 1636104084476,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a841dd934b93ba2",
+  "name" : "test_test1[password]",
+  "time" : {
+    "start" : 1636104084543,
+    "stop" : 1636104084566,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35ab94964affd540",
+  "name" : "test_xuexi",
+  "time" : {
+    "start" : 1636104083792,
+    "stop" : 1636104084134,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "237e32b6cff613a2",
+  "name" : "test_test1[username]",
+  "time" : {
+    "start" : 1636104084513,
+    "stop" : 1636104084539,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6e2e848076ccee3",
+  "name" : "test_test1[send]",
+  "time" : {
+    "start" : 1636104084484,
+    "stop" : 1636104084506,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

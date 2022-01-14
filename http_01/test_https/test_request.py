@@ -24,6 +24,25 @@ class TestRequest:
         # assert 0==res.json()[]
         assert res.json()['code'] == 0
 
+    def test_login_password_none(self):
+        data = {
+            "mobile": [],
+            "type": "sms",
+            "password": "12312",
+            "source": "h5",
+            "device-number": "device_number"
+        }
+        headers = {
+            "Accept": "application/json",
+            "source": "h5",
+            "device-number": "device_number"
+        }
+        res = requests.post("http://newo2otest.yesmywine.com/user/login", data=data, headers=headers)
+        # assert 0==res.json()[]
+        # assert res.json()['code'] == 0
+        print(res.json())
+        print(res.status_code)
+
     def test_list(self):
         data = {
             "source": "h5",
@@ -61,18 +80,18 @@ class TestRequest:
     def test_test(self):
         lal = [1, 2, 3, 4]
         lal1 = [1, 2, 3, 4]
-        data1 = [random.randint(19500000000,19599999999) for x in range(100)]
+        data1 = [random.randint(19500000000, 19599999999) for x in range(100)]
         print(data1)
-        data2 = ["135%08d"%x for x in range(100)]
+        data2 = ["135%08d" % x for x in range(100)]
         print(data2)
         print(dict(zip(lal, lal1)))
-        tes = ["王","李","张","刘","高"]
-        tes1 = ["琪","五","六","七","八"]
-        name = random.choice(tes)+random.choice(tes1)
+        tes = ["王", "李", "张", "刘", "高"]
+        tes1 = ["琪", "五", "六", "七", "八"]
+        name = random.choice(tes) + random.choice(tes1)
         print(name)
-#         数字生成器
+        #         数字生成器
         date = [random.randint(19520400000, 19520499999) for x in range(10)]
         print(date)
-        data = ["195%08d"%x for x in range(110)]
+        data = ["195%08d" % x for x in range(110)]
         print(len(data[0]))
         print(data)

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 28 14:56:09 CST 2021","Tue Dec 28 14:56:10 CST 2021","733","gdjs_testing","test_assert","Test_gdjs_assert","","","test_denglu_pass",""
+"passed","Tue Dec 28 14:56:08 CST 2021","Tue Dec 28 14:56:09 CST 2021","827","gdjs_testing","test_assert","Test_gdjs_assert","","","test_denglu",""
+"passed","Tue Dec 28 14:56:07 CST 2021","Tue Dec 28 14:56:08 CST 2021","805","gdjs_testing","test_assert","Test_gdjs","","","test_denglu",""

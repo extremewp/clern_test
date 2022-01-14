@@ -1,0 +1,25 @@
+需要安装JDK最好是1.8以上
+下载SDK 下载地址： http://tools.android-studio.org/index.php/sdk
+安装SDK 下载解压  CMD 命令行到 解压路径 执行下载包里面SDK记事本的executing:后面语句
+配置环境变量：
+ 新建一个环境变量，变量名：ANDROID_HOME，变量值 ：解压的地址
+  在系统变量path 中添加 ;%ANDROID_HOME%\platform-tools; %ANDROID_HOME%\tools
+ appium 下载
+  https://github.com/appium/appium-desktop/releases
+
+安装appium-python-client
+platformName           app的系统版本 Android或ios
+platformVersion        安卓的系统版本
+deviceName             手机地址    在cmd中使用 adb devices 查看
+appPackage             手机测试包名称  使用adb shell  logcat |grep -i displayed 查看日志手动点击包
+appActivity            app的Activity  查看日志后面的
+          app信息
+adb shell dumpsys activity top            获取当前界面元素（推荐）（重点）
+adb shell dumpsys activity activities     获取任务列表
+          app入口
+adb logcat |grep -i displayed             查看后台日志用于确定appPackage 和 Activity
+adb shell am start -W -n 包的Package和Activity
+
+
+
+

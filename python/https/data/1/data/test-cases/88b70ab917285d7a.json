@@ -1,0 +1,72 @@
+{
+  "uid" : "88b70ab917285d7a",
+  "name" : "test_denglu",
+  "fullName" : "gdjs_testing.test_assert.Test_gdjs#test_denglu",
+  "historyId" : "f984645e4fd9d158fce8a15db2bd4ea2",
+  "time" : {
+    "start" : 1640674567905,
+    "stop" : 1640674568710,
+    "duration" : 805
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73d2fa15d81fb1b8",
+      "name" : "stdout",
+      "source" : "73d2fa15d81fb1b8.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "gdjs_testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_assert"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_gdjs"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "20432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "gdjs_testing.test_assert"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88b70ab917285d7a.json",
+  "parameterValues" : [ ]
+}

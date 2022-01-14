@@ -1,0 +1,72 @@
+{
+  "uid" : "3a841dd934b93ba2",
+  "name" : "test_test1[password]",
+  "fullName" : "test_requests1.TestDome#test_test1",
+  "historyId" : "8a69d1e3a7423181a669409cde0b0f95",
+  "time" : {
+    "start" : 1636104084543,
+    "stop" : 1636104084566,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e1a66e09db6cdf4",
+      "name" : "stdout",
+      "source" : "4e1a66e09db6cdf4.txt",
+      "type" : "text/plain",
+      "size" : 1731
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_requests1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDome"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LBH33VIE"
+  }, {
+    "name" : "thread",
+    "value" : "22908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_requests1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "date",
+    "value" : "'password'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a841dd934b93ba2.json",
+  "parameterValues" : [ "'password'" ]
+}

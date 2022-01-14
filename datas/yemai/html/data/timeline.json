@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "LAPTOP-LBH33VIE",
+    "children" : [ {
+      "name" : "52540-MainThread",
+      "children" : [ {
+        "name" : "test_detail_None",
+        "uid" : "eb61ccc84e4f8bff",
+        "parentUid" : "b4c97b81363d72286f3ed1a844af1d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636530977028,
+          "stop" : 1636530977682,
+          "duration" : 654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add",
+        "uid" : "b18fa57200cbbd21",
+        "parentUid" : "b4c97b81363d72286f3ed1a844af1d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636530975190,
+          "stop" : 1636530975568,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "b0ca87732845e561",
+        "parentUid" : "b4c97b81363d72286f3ed1a844af1d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636530974411,
+          "stop" : 1636530974784,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_detail_erro",
+        "uid" : "2fe4a0dd51d2a9cf",
+        "parentUid" : "b4c97b81363d72286f3ed1a844af1d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636530976374,
+          "stop" : 1636530977024,
+          "duration" : 650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_detail_pass",
+        "uid" : "93deac660fef17d",
+        "parentUid" : "b4c97b81363d72286f3ed1a844af1d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636530975582,
+          "stop" : 1636530976371,
+          "duration" : 789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_list",
+        "uid" : "5d563c7b2b70cc9",
+        "parentUid" : "b4c97b81363d72286f3ed1a844af1d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636530974799,
+          "stop" : 1636530975176,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4c97b81363d72286f3ed1a844af1d9c"
+    } ],
+    "uid" : "57a9071e8aa70fc7f22c82f1ac1316f9"
+  } ],
+  "name" : "timeline"
+}
