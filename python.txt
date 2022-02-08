@@ -19,3 +19,22 @@
         删除  列表.remove()
 
         type()  判断括号里面的类型
+
+
+        使用外部库 xlrd 对excel 进行读
+                    使用插件获取excel在电脑位置
+                    xlsx=xlrd.open_workbook("")
+                    获取excel中是那张表
+                    table=xlsx.sheet_by_name('')
+                    读取excel中表中数据信息
+                    table.cell_value(1,2)
+
+         使用外部库xlwt 对excel进行写
+            新建一个工作簿
+            new_workbook =xlwt.Workbook()
+            新建一个工作表
+            worksheet = new_workbook.add_sheet("new_test")
+            对喜欢的位置写入数据
+             worksheet.writ(0,0,'test')
+             保存位置
+            new_workbook.save('d:/as.xls')

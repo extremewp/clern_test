@@ -40,7 +40,6 @@ class YeMai(BaseApi):
 
 
 
-
         name = random.choice(tes) + random.choice(tes1)
         print(name)
         #         数字生成器
