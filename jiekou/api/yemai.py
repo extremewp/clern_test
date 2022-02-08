@@ -25,7 +25,8 @@ class YeMai(BaseApi):
         assert jsonpath(self.test_list(), '$..word')[12] == "江小男"
 
     def test_test(self):
-
+        ina = ["195%8d" % x for x in range(100)]
+        random.choice()
         lal = [1, 2, 3, 4]
         lal1 = [1, 2, 3, 4]
         data1 = [random.randint(19500000000, 19599999999) for x in range(100)]

@@ -1,9 +1,10 @@
+from os import system
+
 import pytest
-import requests
-import yaml
+
 
 from jiekou.api.yemai import YeMai, Commodity
-from jiekou.api.yemaiapi import BaseApi
+
 
 
 class TestYeMai():
@@ -49,4 +50,7 @@ class TestYeMai():
 
 
 if __name__ == '__main__':
-    pytest.main()
+  pytest.main()
+
+
+

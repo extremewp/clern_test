@@ -126,6 +126,9 @@ class TestDome:
         # 使用断言简单可以实现递归检索
         assert jsonpath(res.json(), '$..code')[0] == 101001
 
+    def test_test01(self):
+        print(random.choice(["175%08d123" % x for x in range(100)]))
+        pass
 
 if __name__ == '__main__':
     pytest.main()

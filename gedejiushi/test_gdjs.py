@@ -5,7 +5,7 @@ class TestGe:
     def test_gdjs(self):
         url = "https://apptest.jiuzhuanzhuan.com/ipaynow/test2"
         data = {
-            "phone": 19520409998
+            "phone": 15144450874
         }
         res=requests.post(url=url,data=data)
 
