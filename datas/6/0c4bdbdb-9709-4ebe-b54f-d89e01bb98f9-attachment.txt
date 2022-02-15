@@ -1,0 +1,2 @@
+{'headers': {'Accept': 'application/json', 'device-number': 'device_number', 'source': 'h5'}, 'method': 'get', 'params': {'device-number': 'device-number', 'item_id': '123', 'source': 'h5'}, 'url': 'http://newo2otest.yesmywine.com/goods/detail'}
+{'headers': {'Accept': 'application/json', 'device-number': 'device_number', 'source': 'h5'}, 'method': 'get', 'params': {'device-number': 'device-number', 'item_id': '123', 'source': 'h5'}, 'url': 'http://newo2otest.yesmywine.com/goods/detail'}
