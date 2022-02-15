@@ -4,7 +4,7 @@ import pytest
 
 
 from jiekou.api.yemai import YeMai, Commodity
-
+import os
 
 
 class TestYeMai():
@@ -51,6 +51,7 @@ class TestYeMai():
 
 if __name__ == '__main__':
   pytest.main()
+  os.system("allure generate ../../datas/tets_allure -o ./allure_html --clean")
 
 
 

@@ -1,9 +1,10 @@
+import json
 import random
 import re
 
 import pytest
 import requests
-from jsonpath import jsonpath
+from jsonpath_rw import jsonpath,parse
 
 
 class TestRequest:
@@ -95,3 +96,27 @@ class TestRequest:
         data = ["195%08d" % x for x in range(110)]
         print(len(data[0]))
         print(data)
+
+    def test_dasdasd(self):
+        url = "https://apptest.jiuzhuanzhuan.com/order"
+        data = {	"buy_type":"2",
+                        "type":"3",
+                        "goods_id":"48",
+                        "num":"1",
+                        "coupon_relation_id":"123",
+                        "unit_price":"19900"
+                             }
+        header = {
+            "token": "j40union_cf7291056a4d2b91e5d37986aba0e45d"
+        }
+        res = requests.post(url=url , headers= header,data= data)
+        # res = requests.post(url=url,header=header,data=data)
+        data ='"msg": "success"'
+        #
+        # json_das = {'msg': 'success', 'data': {'order_no': 'test_SA202202150000028', 'id': '2521'}, 'code': 0}
+        # print(json_das['msg'])
+        #
+        # if data in json_das :
+        #     print(1)
+        # else:
+        #     print(2)

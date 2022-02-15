@@ -4,12 +4,18 @@ import yaml
 from jsonpath import jsonpath
 
 from jiekou.api.yemaiapi import BaseApi
-
+from string import Template
 
 class YeMai(BaseApi):
+    def __init__(self):
+        # 随机生产一个电话号
+        phone = random.choice(['195%08d' % x for x in range(100)])
+        with open("../api/env.yml") as f:
+            self.data = yaml.safe_load(Template(f.read()).substitute(phone=phone))
+
     def login(self):
 
-        return self.send(**yaml.safe_load(open("../api/env.yml"))['login'])
+        return self.send(**self.data['login'])
 
     def list(self):
 
@@ -30,6 +36,7 @@ class YeMai(BaseApi):
         lal = [1, 2, 3, 4]
         lal1 = [1, 2, 3, 4]
         data1 = [random.randint(19500000000, 19599999999) for x in range(100)]
+        random.randint(data1)
         print(data1)
         data2 = ["135%08d" % x for x in range(100)]
         print(data2)
